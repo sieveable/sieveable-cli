@@ -1,0 +1,22 @@
+{
+  "name": "sieveable-cli",
+  "version": "0.1.0",
+  "description": "Sieveable's command line client",
+  "scripts": {
+    "test": "mocha",
+    "start": "node bin/sieveable-cli"
+  },
+  "author": "Khalid Alharbi",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "commander": "^2.9.0",
+    "lodash": "^4.8.2",
+    "request": "^2.70.0",
+    "sleep": "^3.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^2.7.0",
+    "eslint-config-airbnb": "^6.2.0"
+  }
+}
